@@ -21,6 +21,11 @@ public:
 };
 
 int main() {
+
+    /**
+     * 程序输出"0,15,0"
+     */
+    cout << "程序输出\"0,15,0\"" << ":";
     base b;
     derived d;
     b = d;
@@ -29,5 +34,4 @@ int main() {
     cout << d.f() << ",";
     base &p = d;
     cout << p.f() << ",";
-
 }
