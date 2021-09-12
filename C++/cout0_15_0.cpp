@@ -30,7 +30,7 @@ int main() {
     derived d;
     b = d;
     cout << b.f() << ",";
-    d.set(3,5,7);
+    d.set(3, 5, 7);
     cout << d.f() << ",";
     base &p = d;
     cout << p.f() << ",";
